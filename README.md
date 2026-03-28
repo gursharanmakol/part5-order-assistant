@@ -104,4 +104,4 @@ The `summarize_order` prompt asks for fields like `item_count` and `total_amount
 
 ## Article
 
-Placeholder link to Part 5 article: `<LINK-TBD>`
+Part 5 article: https://dev.to/gursharansingh/build-your-first-mcp-server-and-client-bhh
