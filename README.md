@@ -102,6 +102,10 @@ After restart, ask Claude: *"What is the status of order ORD-10042?"*
 
 The `summarize_order` prompt asks for fields like `item_count` and `total_amount`. These aren't stored directly in the JSON; they're meant to be derived from the order's `items`.
 
-## Article
+## Companion Article
 
-Part 5 article: https://dev.to/gursharansingh/build-your-first-mcp-server-and-client-bhh
+This repository accompanies
+[Part 5: Build Your First MCP Server (and Client)](https://aiinpracticehub.com/articles/build-your-first-mcp-server-and-client/)
+in the
+[MCP in Practice series](https://aiinpracticehub.com/series/mcp/)
+on [AI in Practice Hub](https://aiinpracticehub.com/).
