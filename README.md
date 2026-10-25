@@ -131,8 +131,10 @@ This server also works with the MCP Inspector for interactive exploration.
 Inspector requires Node.js. If `npx` is not found, install Node.js from [nodejs.org](https://nodejs.org) first, then restart your terminal.
 
 ```bash
-npx @modelcontextprotocol/inspector uv run --locked python server.py
+npx @modelcontextprotocol/inspector@2.12.0 --protocol-era modern uv run --locked python server.py
 ```
+
+Inspector opens in your browser; if the server shows Disconnected, turn on its switch. Connection Info should show protocol 2026-07-28 and era MODERN. Without `--protocol-era modern`, Inspector 2.12 uses the older 2025-11-25 handshake.
 
 ## Connecting to Claude Desktop
 
